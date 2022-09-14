@@ -1,0 +1,471 @@
+# git log for private repository github.com/umncs-caringbridge/recsys-peer-match
+# Generated on Sep 14 2022 using `git log --pretty=format:"%as %h %an %s"`
+2022-06-29 84cada9 Zachary Levonian Added coverage analysis for second design requirement
+2022-06-27 5a6ec3e Zachary Levonian Added matrix factorization baseline
+2022-06-23 f57697d zentavious footnote analysis - churn
+2022-06-22 aabf4ef zentavious Including second visits in Sample size calculations
+2022-06-21 e748c9c zentavious redid effect sizes with ne parameters
+2022-06-20 9619e2a Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-06-20 72e8e9e Zachary Levonian Compute percentage
+2022-06-17 555b0e7 zentavious revised effect size calcs
+2022-06-15 dca210b zentavious b0 analysis too
+2022-06-15 c09b08e zentavious full study rct calculations
+2022-06-15 423406f zentavious recurring intervention effect size calcs for participants
+2022-06-14 233b805 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-06-14 aea3325 Zachary Levonian Added click data analysis, including some useful tables
+2022-06-13 a2d8972 zentavious fig adjustment fig 11
+2022-06-13 a503ffe zentavious resizing fig 13
+2022-06-13 1fb46ba zentavious fix bug re-reccing in unfiltured group
+2022-06-12 ed95281 Zachary Levonian Updated analysis notebook with feature ablations results.
+2022-06-12 c8e337d Zachary Levonian Added analysis of validation results for feature ablations, confirming that a textless model does better.
+2022-06-11 2d9f3bd Zachary Levonian Added baseline implementation, added to paper. Copied ZachEval notebook to create a copy of the LinearNet results
+2022-06-10 9ec4673 Zachary Levonian Attempting to use the initiations already generated to generate the initated with baselines
+2022-06-10 d0920e1 Zachary Levonian Adjustments to training configurations generated for feature ablations
+2022-06-10 5171bff Zachary Levonian Add stub for new experiment using feature ablations.
+2022-06-10 ce797ef Zachary Levonian Added MLP_study and MLP_tuned results.
+2022-06-10 be1ef61 Zachary Levonian Added new annotation data and figure
+2022-06-09 b7af18a Zachary Levonian Began analyzing the LinearNet training results, including 11 models that failed to finish training within 12 hours. Updates to script parameters/resource requests.
+2022-06-09 cff36a9 Zachary Levonian Added additional modeling details, but also identified a need for 40 additional journal annotations
+2022-06-09 0c1ebd6 Zachary Levonian Added stub notebook with simnet results for future reference
+2022-06-09 a55a444 Zachary Levonian Checkpoint of notebook with Cosine Similarity / SimNet results.
+2022-06-08 df41c53 Zachary Levonian Added new stub code for model eval, including a completed evaluation of the Cosine Similarity model. Added loading method to Model Manager that tracks the epoch with the best achieved validation loss.
+2022-06-08 a0f3e1d zentavious adding totals
+2022-06-08 4e55288 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-06-08 8fa9a2b Zachary Levonian Added new model evaluation approach to deal with the inconsistent pickle loading times.
+2022-06-08 1cec25d zentavious pre rec dataframe feather
+2022-06-07 0bf9884 zentavious Redoing some figures
+2022-06-03 b540522 Zachary Levonian Added notebooks computing some of the baselines. Still need to implement the ones that aren't contained in the non-text features
+2022-06-03 81f0e11 Zachary Levonian no longer computing NDCG
+2022-06-03 ef850d1 zentavious clipping
+2022-06-03 076be7a zentavious excess weekly actions
+2022-06-03 b637299 zentavious more fig adjusting
+2022-06-03 c2705a0 zentavious adjusting appendix fig size
+2022-06-03 e6d7fdc zentavious adjusting fig labels
+2022-06-03 19dcc06 zentavious adjusting fig size
+2022-06-03 bc9f355 zentavious fixed overflow allignment
+2022-06-03 655d90b zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into main
+2022-06-03 2903be8 zentavious Recced outcome estimates
+2022-06-03 20cb092 Zachary Levonian Started running test and predict text feature generation
+2022-06-03 88c2a0a zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into main
+2022-06-03 81f9099 Zachary Levonian Small documentation updates. Added mistakenly-omitted figure.
+2022-06-03 974462c Zachary Levonian Added script to recover when test_context generation gets corrupted. Updated gen_continue script and make_text_features_train scripts with agate defaults.
+2022-06-02 7cfbfcb zentavious rename
+2022-06-02 24082b7 zentavious recced outcome estimates checkpoint
+2022-06-02 d33cf9d Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-06-02 1fbf82a Zachary Levonian Added analysis to generate survey figure.
+2022-06-02 144fe05 zentavious amp interaction analysis
+2022-06-02 fbcbcd2 Zachary Levonian Documentation updates, and extend eval scripts to specifically support splitting by validation/test period.
+2022-06-01 5976251 Zachary Levonian Added an old email mockup; no idea what this is or if it was used.
+2022-06-01 78494b5 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-06-01 796b0ca Zachary Levonian Fixed a few bugs and added additional logging
+2022-06-01 4381daa zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into main
+2022-06-01 af4700c zentavious revert overriden figure
+2022-05-31 d9b05d3 Zachary Levonian Added sidebar analysis on coverage
+2022-05-31 746e335 Zachary Levonian Removed baseline scoring from recDataGenerator and tweaked script parameters, after a foolish attempt to recover from mismatches between previous and current journal snapshots.
+2022-05-29 456fc63 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-05-29 db260e0 Zachary Levonian Update survival analysis approach with new data, added summary table to paper
+2022-05-28 4d910e8 zentavious post click analysis
+2022-05-27 0d15f11 zentavious setting up for test sbatch
+2022-05-27 3963002 zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into main
+2022-05-27 ed43a3c zentavious pre-click analysis + control group bug fix
+2022-05-27 1313ffc Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-05-27 88c3bfb Zachary Levonian Started updating survival analysis to use more recent data
+2022-05-26 1656275 zentavious exploring duplicate control keys
+2022-05-26 bd2f92c zentavious Pulling new df for all sites
+2022-05-26 b9530ca zentavious On click comparison over time setup to run overnight
+2022-05-25 a1a71dc zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into main
+2022-05-25 dd4fce0 Zachary Levonian Computed percentiles for P1
+2022-05-25 edcc66c zentavious apply vs join
+2022-05-25 03c461a Zachary Levonian Add small demo of randomly sampling fake click times
+2022-05-25 61b87e3 zentavious fixed rank/score by batch figs
+2022-05-24 f3ce780 Zachary Levonian More figures and computing of counts.
+2022-05-24 26921a1 zentavious discriptive stats tables
+2022-05-24 c576052 zentavious 10 bootstraps rec comparison, click/rec/click_rec
+2022-05-24 c483a78 zentavious 12 week analysis of psuedo recced comparison
+2022-05-24 1c2ef39 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-05-24 a3bd1e0 Zachary Levonian Added participant activity counts and exported click data for usage.
+2022-05-23 a3ca407 zentavious setting up recced long comparisson
+2022-05-23 465a750 zentavious ci_estimates for recced sites
+2022-05-23 81c8600 zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into main
+2022-05-23 df83ea5 zentavious Don't remember what this was, just commiting my personal files
+2022-05-22 9263a40 Zachary Levonian Minor addition of comparison between a flexible pre-study window and the maximum pre-study window
+2022-05-21 f54accc Zachary Levonian Added sensitivity analysis for time window selection.
+2022-05-20 0caff89 Zachary Levonian Added code for robust SEs for the Poisson model and adjusted the generation and reporting of the U statistic
+2022-05-20 e221bf1 zentavious rsquared analysis
+2022-05-19 9cfd446 Zachary Levonian Chose mine, potentially losing changes
+2022-05-19 09a5a36 Zachary Levonian Added a bunch of analysis, including bootstrapping estimates and additional variables
+2022-05-19 57cf2aa zentavious forgot to save
+2022-05-19 4770dd7 zentavious added recced site features, and began ols analysis
+2022-05-19 c7ceb6b zentavious recced sites analysis checkpoint
+2022-05-18 1df7060 Zachary Levonian Added revised flow to feature generation to fix a few bugs and explore a few data mysteries
+2022-05-18 7506f59 Zachary Levonian Added code to produce a summary table for pre-study participant activity.
+2022-05-17 ea9e2ca zentavious finished control features
+2022-05-17 fe466cf Zachary Levonian Added working implementations of IP weighting, standardization, and doubly robust estimators.
+2022-05-17 91e3e48 zentavious added n_self_site_interactedwith, time_since_first_journal_update, and is_prestudy flag
+2022-05-16 49b6e2a Zachary Levonian Added an apparently broken implementation of IP weighting
+2022-05-13 42620b1 Zachary Levonian Added additional analysis to notebook, from meeting with Matthew
+2022-05-13 ff6dfe7 Zachary Levonian Added initial form of retention notebook
+2022-05-13 dccfed6 Zachary Levonian Cleaned up notebook to extract pseudocontrol group.
+2022-05-13 32c8f31 Zachary Levonian About to clean up EndOfRecruitmentSiteProfileSampling
+2022-05-12 c5089a9 Zachary Levonian Redoing site_profile extraction with more permissive net, hoping to better explain the missing visit data among participants.
+2022-05-12 691c1fd Zachary Levonian Added tentative Transformation interface and test log transform.
+2022-05-05 58767c9 zentavious Analysis of batch score means
+2022-05-05 f1dfa87 zentavious saved notebook
+2022-05-05 b8e7285 zentavious Added csv of sites for analysis in root_dir/analysis/
+2022-05-05 b395e5d zentavious Bug fix
+2022-05-05 26d21a2 zentavious Saving figures
+2022-05-03 2532aae zentavious analysis of factual, counterfactual, and control conditions
+2022-05-03 1e4f6b5 zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into main
+2022-05-03 e726e94 zentavious mean scores analysis
+2022-05-02 29b449b Zachary Levonian Add stub CF implementation
+2022-04-28 3eb5cd7 Zachary Levonian Update to docs
+2022-04-28 8f50149 Zachary Levonian Documentation updates
+2022-04-28 4db4764 Zachary Levonian Documentation updates, add option to specify minibatch size, add stub InteractionNet model.
+2022-04-28 49da5e0 Zachary Levonian Updated documentation
+2022-04-28 be2a224 Zachary Levonian Added stub model implementation building a learned form of simnet.
+2022-04-27 2ec8106 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-04-27 491361a Zachary Levonian Added new cloudfront data
+2022-04-25 bc9448e zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into main
+2022-04-25 b8bf7fa zentavious gathering control groups
+2022-04-21 7515f1b Zachary Levonian Update documentation
+2022-04-21 f3a5034 Zachary Levonian Updated with new data dump
+2022-04-21 54c0259 Zachary Levonian Updated activity monitoring notebook with small example
+2022-04-11 d7af4d7 Zachary Levonian Updated with newer data to refresh counts.
+2022-04-01 523131b matthewmac99 Update evaluateModel.sh
+2022-03-31 510ffdd matthewmac99 Increased memory to 20g
+2022-03-31 b35482e Ngan Nguyen newest evaluation for concat
+2022-03-30 d95dada Ngan Nguyen Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-03-30 3b49862 Ngan Nguyen added learning rate for concat
+2022-03-29 99aa54a Zachary Levonian Added test config and fixed preprocessing
+2022-03-29 8d312fa Zachary Levonian Fixed preprocessing?
+2022-03-25 78b7c1e Ngan Nguyen Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-03-25 4b7a647 Ngan Nguyen added more learning rates to concat
+2022-03-25 c94660d Zachary Levonian Fixed flag
+2022-03-25 769c7c4 Zachary Levonian Added validation-only flag
+2022-03-25 8b37f2d Zachary Levonian Added flag to make evaluation faster.
+2022-03-25 77735a3 matthewmac99 Update evaluateModel.sh
+2022-03-18 aafb756 Zachary Levonian Added code to plot validation loss during training
+2022-03-18 07eac83 Matthew Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-03-18 01defdc Matthew adding adjusted feature ablation experiment
+2022-03-18 ddeba66 Zachary Levonian Adjusted down the memory requirements for evaluation
+2022-03-18 bfa1846 Ngan Nguyen concat net evaluations on full rec metadata
+2022-03-11 9a74718 Zachary Levonian Added initial analysis of annotation data and click data, including code to create the IRR table and an initial estimate of the proportions of each annotated category.
+2022-03-10 df04b99 Matthew Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-03-10 f43a3d1 Matthew adding AdamExperimentAnalysis
+2022-03-10 b115489 Zachary Levonian Small bugfixes, including fixing stdout and stderr paths during eval
+2022-03-10 c2ed257 Zachary Levonian Added new evaluation flow for experiments
+2022-03-10 cc03c35 Ngan Nguyen Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-03-10 3d0bc23 Ngan Nguyen added changes in concatnet
+2022-03-08 f543d91 Zachary Levonian Cosmetic and doc updates to script
+2022-03-07 7849864 Ngan Nguyen added script to generate rec context pickle files
+2022-02-23 16916b4 Ngan Nguyen Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-02-23 552f6fc Ngan Nguyen added concatnet training experiment
+2022-02-23 b9d08eb Zachary Levonian Rewrite dyad extraction to focus on recommended dyads
+2022-02-23 e40e899 Zachary Levonian Checkpoint before reorienting around user/site dyads
+2022-02-17 f00bad3 Zachary Levonian More data munging; still issues identifying root journal and guestbooks
+2022-02-17 7a2d2ef Ngan Nguyen move back to notebook folder
+2022-02-17 c178c89 Ngan Nguyen move back to notebook folder
+2022-02-17 15b29f1 Ngan Nguyen Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-02-17 60e321d Ngan Nguyen evaluate learning rate
+2022-02-15 4ad7c9b Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-02-15 22e4ed1 Zachary Levonian Checkpoint with broken activity extraction implementation
+2022-02-14 4e5e846 Ngan Nguyen Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-02-10 8be7be5 Matthew formatting fix
+2022-02-10 3db3bfd Matthew adding adam optimizer experiment
+2022-02-10 043b477 Ngan Nguyen Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-02-08 89cc12d Zachary Levonian Added code to extract subset of relevant data for relevant users and sites
+2022-02-04 0d3d279 Zachary Levonian Added default Adam parameters, and config parameter to turn off Learning Rate scheduler.
+2022-02-04 1f44f78 Zachary Levonian Fxied preprocess script by enforcing int type, and removing to correct indentation level.
+2022-02-03 9dff4e0 Ngan Nguyen Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-01-31 55d478a Zachary Levonian Update config to generate eval script with more realistic total time, and added additional example code to eval notebook, including an analysis demonstrating that MRR does not decrease over time and generally is invariant wrt week of 2021.
+2022-01-30 bd9ddca Ngan Nguyen Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2022-01-30 9e3d04b Ngan Nguyen experimenting evaluation on models
+2022-01-28 3f89895 Zachary Levonian Added sample notebook demonstrating a few approaches to evaluation, fixed preprocessing bug when the FeatureManager is reinstantiated, and updated evaluation script to support multiple models by default.
+2022-01-26 5132eea Zachary Levonian Added temporary script to test model evaluation.
+2022-01-26 91eebd0 Zachary Levonian Updated evaluateModels script to produce the test metadata with model metrics for the given scorer. It's not possible to fully evaluate a model.
+2022-01-26 e0f3773 Zachary Levonian Rewrite column dropping in preprocess, including adding the ability to specify glob patterns and an extension of get_feature_indices, update ModelTrainer and the SimNet implementation to use feature info from the FeatureManager, add config for LinearNet feature ablations, refreshed training data matrices based on recent snapshot.
+2022-01-25 3852c43 Zachary Levonian This commit adds a new evaluation flow (evaluateModels.py), a new text-feature cache and pooler, a new no-parameter cosine similarity model, and adds structure to cbrec.experiment's generation. A variety of bugs and documentation points have been fixed or added.
+2022-01-24 a322a77 Zachary Levonian Updated text feature extraction for training data
+2022-01-21 eb54799 Zachary Levonian Rerunning full feature extraction process with Jan 20, 2022 data dump
+2021-12-28 73b48ec Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-12-28 5ee1bef Zachary Levonian Fix to v2 annotation spreadsheet
+2021-12-23 fd65f8a Ngan Nguyen Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-12-23 011f3fe Ngan Nguyen added concatnate and max pool for text features
+2021-12-22 7b41956 Zachary Levonian Added v2 click data annotations. Updated spreadsheet. Added notes on potential third, random sample of journal updates for annotation.
+2021-12-16 8496f3a Zachary Levonian Finished analysis of comments timestamp issue.
+2021-12-16 fe93eb7 Zachary Levonian Added batch experiment analysis notebook demonstrating loading a batch of experiments.
+2021-12-15 b287501 Zachary Levonian Reconsidering default value
+2021-12-14 f53f0a0 Zachary Levonian Simple patch to set a reasonable default for time_to_most_recent features.
+2021-12-10 a0faf84 Matthew removing excess tests
+2021-12-10 a14f687 matthewmac99 Delete slurm-8898607.out
+2021-12-10 46d92f9 Matthew Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-12-10 06ac605 Matthew working experiment code
+2021-12-05 f0429c5 Zachary Levonian Refreshed cloudfront data. Added better data handling for first clicks and v1 sampling of journal annotations.
+2021-12-03 cd9a8ec Zachary Levonian Copy activity monitoring notebook
+2021-12-03 1872f25 Zachary Levonian Sent batch_id 11 qualitative feedback requests.
+2021-12-02 931e6b0 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-12-02 01c7733 Zachary Levonian Updated activity monitoring notebook with some hacky code to generate qualitative email contents
+2021-12-02 2c72153 zentavious k-buckets
+2021-11-30 345ad8a Ngan Nguyen added different pools for features
+2021-11-30 dbea2b2 Matthew test config generation is functional
+2021-11-24 4d04d5a Zachary Levonian batch_id 10 sent.
+2021-11-19 97d9d87 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-11-19 8e320d8 Zachary Levonian Updated with guestbook analysis as well.
+2021-11-19 c2660d6 matthewmac99 Update model_gen_script.sh
+2021-11-19 f5691d2 matthewmac99 Update model_gen.py
+2021-11-19 faf4e3e matthewmac99 Update model_gen.py
+2021-11-19 ececbdd matthewmac99 Update model_gen_script.sh
+2021-11-19 adc86ae matthewmac99 Update model_gen_script.sh
+2021-11-18 4b0fdcc Zachary Levonian Added investigation of timestamp bug
+2021-11-17 b24f017 zentavious analysis of duration features, bug fix for duration bins
+2021-11-17 c28580c Zachary Levonian batch_id 9 complete.  Small updates to feature extraction to make computation faster.
+2021-11-16 3b028fc Matthew input folder
+2021-11-15 e50b5ab Matthew scripts are now compatible with jsons
+2021-11-11 0b94181 matthewmac99 Update model_gen_script.sh
+2021-11-11 c91881c matthewmac99 Updated to reflect changes in Python script
+2021-11-11 426ffa1 matthewmac99 Updated script with eval()
+2021-11-10 5fa0546 Zachary Levonian batch_id 8 complete.
+2021-11-08 72afca7 Matthew removed print statements
+2021-11-08 f9fdb79 Matthew initial experiment scripts
+2021-11-08 6a24aee Matthew McNamara removed '=' sign from inside brackets on lines 35, 38 to stop compilation error
+2021-11-04 ba4ae63 zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into main
+2021-11-04 f6bea12 zentavious experiment/ minor bug fix in preprocessor
+2021-11-04 08cb946 Zachary Levonian Updated activity monitoring notebook with analysis pre-meeting
+2021-11-03 348eba9 Zachary Levonian Updated activity monitoring notebook with counts for visit, follow, and interaction actions.
+2021-11-03 d37a9c8 zentavious * bug
+2021-11-03 9afc56b zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into main
+2021-11-03 e7604ee zentavious adding feature_keys to memory in feature_manager
+2021-11-02 83e53f6 Zachary Levonian batch_id 7 complete. Added function to make it easier to reload model checkpoint.
+2021-11-02 8e194d4 Zachary Levonian Updates for batch 7
+2021-11-02 98c8cee Zachary Levonian Added stub code demonstrating approach to building a feature index map
+2021-11-02 7a0c4d7 zentavious all durations are hours
+2021-11-01 5268534 Zachary Levonian Updated triple generation to enable interactive mode more easily, additional debugging of misaligned candidate USPs.
+2021-11-01 c10cdec Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main. May have accidentally overwritten preprocess_encode_columns"
+2021-11-01 bac5d66 Zachary Levonian Bug fixes and updates. Investigating erroneously eligible USPs in test reccontexts.
+2021-11-01 d4273a4 zentavious bug fixes for preprocessing and private methods
+2021-10-28 49e98a6 zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into main
+2021-10-28 8da66f1 zentavious preprocessing, removal/hot encoding
+2021-10-28 b1611e6 Zachary Levonian Checked out the weight-decay results in a new notebook, and updated text feature creation script to optionally override the output directory.
+2021-10-27 322c88f Zachary Levonian Starting second weight-decay experiment
+2021-10-27 1eef6d6 Zachary Levonian Added temporary sbatch script to test out a very long model training period.
+2021-10-27 bcb565b Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-10-27 5b0fe6c Zachary Levonian Batch_id 6 sent out.  Added some functionality to train with weight decay, added templates, added survey links.
+2021-10-27 2b27b49 matthewmac99 Changing Mail Address to "xxx@umn.edu" for testing purposes.
+2021-10-26 1a517f0 Zachary Levonian Updated notebooks for new batch of data, documentation updates and initial experiments with model_manager
+2021-10-26 fb7fd2f Zachary Levonian Bug fixes and feature additions
+2021-10-26 7b509ea Zachary Levonian Added and tested a save/load implementation for the model weights and the training metrics. Documentation updates. Added /modeling demo in experiments notebook.
+2021-10-25 eeab74d Zachary Levonian Various bug and code-flow fixes, and an untested implementation of model saving and loading.
+2021-10-25 78aaaf9 Zachary Levonian Added notebook to produce codes for Miro affinity mapping. Small update to torch experiments documentation
+2021-10-23 cd22064 zentavious syntax errors, initial tests of manager train pipeline
+2021-10-21 7f62dcd Zachary Levonian Added initial modeling subpackage that breaks out the functionality of TorchModel into separate components that can be controlled via configuration. Absolutely none of this code is tested, so it still needs to be massaged and tested.  Key design decisions to make yet about what, how, and when to save after training a model.
+2021-10-20 a02671c Zachary Levonian Fixed bug where target_inds are computed incorrectly after resorting.
+2021-10-20 193c6d2 Zachary Levonian Batch_id 5 (Batch 6) sent. Miscellaneous bugfixes and documentation updates.
+2021-10-18 2b2fee8 Matthew McNamara training and evaluation on personal Jupyter notebook
+2021-10-17 e6b9d06 Matthew McNamara Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into main
+2021-10-15 d65854f zentavious experiementing with scoring, syntax fix
+2021-10-12 a1619b9 Zachary Levonian Update Zach's notebook with scorer example from today's meeting.  Small bugfixes, plus new function in feature_loader.
+2021-10-12 03728f7 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main.
+2021-10-12 b8eae79 Zachary Levonian Batch_id 4 updates.  Updated prediction script to auto-save the required journal ids, added script to ensure those journal ids are present in the text database, and partially updated templates.  Added new survey links.
+2021-10-11 16d6a3d zentavious Merge pull request #2 from umncs-caringbridge/zentx005/test_accuracy
+2021-10-11 241313a zentavious nit
+2021-10-11 03ac307 zentavious saving metrics and plots, optional display
+2021-10-08 0817a85 zentavious Revert epoch change
+2021-10-07 25ab21b zentavious updating torch model/training logic to log validation loss
+2021-10-07 a4c0928 zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into zentx005/test_accuracy
+2021-10-07 f41e96c zentavious testing changes for plotting validation acc/loss
+2021-10-07 7ceea7e Zachary Levonian Added notebook to create data for annotation
+2021-10-07 c6d28e7 Zachary Levonian Update documentation and dates in script
+2021-10-06 3295446 Zachary Levonian Documentation updates and bugfix to candidate feature mean pooling.
+2021-10-05 0df9a55 Zachary Levonian Updated documentation
+2021-10-05 e889488 zentavious Merge branch 'main' of https://github.com/umncs-caringbridge/recsys-peer-match into zentx005/test_accuracy
+2021-10-04 ba2e20c Ngan Nguyen Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-10-04 957e655 Ngan Nguyen added my notebook
+2021-10-04 fe06a44 Matthew McNamara working through basic neural network model
+2021-10-04 e19664e zentavious Log accuracy against test set
+2021-10-04 41b6896 zentavious Merge pull request #1 from umncs-caringbridge/master
+2021-10-04 53f37e0 Matthew Zent Revert "Implimented testing accuracy on test set"
+2021-10-04 b9eb4fb Matthew Zent Implimented testing accuracy on test set
+2021-10-04 1401439 Matthew Zent playing with logging test accuracy instead of training accuracy
+2021-10-01 35bb908 Zachary Levonian Add notebooks at end of b3 (batch 4).
+2021-10-01 258b143 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-10-01 498ff04 Zachary Levonian updated feature loader, updated notebook to include an example of model training using cached feature arrays
+2021-10-01 562ebf3 Matthew McNamara adding my TorchExperiment file
+2021-09-30 6cf517f Zachary Levonian Updated prediction script to infer a time 6 hours beyond the last interaction to decrease the likelihood of temporal proximity effects, updated feature loader to further replace the functionality of torchmodel, updated torchmodel's scoring interface for test data to use a new RecContext.X_test key
+2021-09-30 844b177 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-09-30 853d320 Zachary Levonian Added hacky script to train model
+2021-09-29 b8765dc Matthew Zent Added zent_torch_experiments notebook as follow-up to meeting
+2021-09-28 7b15ad9 Zachary Levonian Added torch experiments notebook during meeting
+2021-09-27 6c18fff Zachary Levonian Added stub for a feature loader class that manages database connections to feature data independent of training and prediction.
+2021-09-24 06cd061 Zachary Levonian Updates to notebooks after batch 3 sent out.
+2021-09-24 2559584 Zachary Levonian Bug fixes and updates to training process
+2021-09-24 60f1340 Zachary Levonian Added updated cloudfront data and survey links for third batch
+2021-09-23 798cd65 Zachary Levonian Added script to top up test2train text features.
+2021-09-17 ec19ce9 Zachary Levonian Updated notebooks with code that produced the emails for batch 1
+2021-09-17 2c500c9 Zachary Levonian Refreshed with fixed journal data
+2021-09-17 6114ebb Zachary Levonian Added code to enable using test data to train the model
+2021-09-17 3e9752b Zachary Levonian Added links to b1 survey feedback
+2021-09-17 4e3b4e5 Zachary Levonian Added separate template file, and added batch 1 templates.
+2021-09-15 fd1be86 Zachary Levonian Added additional testing and test2train pipeline.
+2021-09-15 4caf670 Zachary Levonian Candidate identification with new data dump.
+2021-09-15 d5e6b5c Zachary Levonian Bug fixes, including the addition of command-line flags to skip feature generation, additional documentation, and a new test2train function in torch_model.
+2021-09-15 494f666 Zachary Levonian Update with new data dump, added additional activity monitoring data
+2021-09-15 9d7c0af Zachary Levonian Added feedback data file
+2021-09-15 2c40b86 Zachary Levonian Added script to add all required texts for prediction at once.
+2021-09-09 0f19396 Zachary Levonian Fixed bug in amp noising, restarted job.
+2021-09-09 ee60890 Zachary Levonian Updated PytorchTraining notebook to save as many details as possible as JSON. Updated cbrec to use published_at rather than created_at for journals, and to add noise to amps.
+2021-09-09 14ed1db Zachary Levonian Updated cloudfront click data, and added notebook to fix original amp timestamps based on a sampling process from the new reactions.
+2021-09-03 33d258d Zachary Levonian Added initial attempt at activity monitoring.
+2021-09-02 77eafa6 Zachary Levonian Updated prediction helper notebook to identify journal ids that will be needed at prediction time.
+2021-09-02 1d2c873 Zachary Levonian Wrote out participant ids to a file, along with other study info collected both from the survey and manually.
+2021-09-02 b9abe68 Zachary Levonian Rewrote compose functionality to template the plaintext and HTML formats of the rec emails.  Added untested functionality to record whenever an email is sent.
+2021-09-02 9ea183e Zachary Levonian Add in manual opt-ins.
+2021-09-02 63a697a Zachary Levonian Update to recent data
+2021-09-02 5595c19 Zachary Levonian Updated with code for making predictions
+2021-09-02 b99f25d Zachary Levonian Update to time req and docs
+2021-09-02 0a4d757 Zachary Levonian Added new participant secret value tsv
+2021-09-02 219b6b9 Zachary Levonian Bugfixes and added cache and allowlist to decrease duplicate effort
+2021-09-01 275f236 Zachary Levonian Add distribution history / personalized links for feedback survey
+2021-08-31 a1ad191 Zachary Levonian A variety of feature additions and bugfixes, including changes to the linear torchmodel learning rate, helper functions for loading checkpoints and the like, and additional command-line flags during prediction.
+2021-08-31 734e8ec Zachary Levonian Wrote eligible participant ids to a file for prediction
+2021-08-31 2bb685a Zachary Levonian Update training notebook to produce model that incorporates text features, add notebook for computing the journal oids of active, eligible users at a checkpoint.
+2021-08-31 0d84dba Zachary Levonian Added helper scripts for producing texts for prediction.
+2021-08-30 f4db3a7 Zachary Levonian A few bugfixes, updated TorchModel to use text features, added script to add missing train journal features, added utility functions for retrieving text features in embeddingdb, added class for identifying recent journal updates in journalid (using bisect).
+2021-08-29 c7d1052 Zachary Levonian Added notebook to identify site profiles of users who are not participants.
+2021-08-29 e7c8283 Zachary Levonian Refresh with new data snapshot
+2021-08-29 e1b91c6 Zachary Levonian Added matched data outputs, added new survey data
+2021-08-29 2b7c207 Zachary Levonian Add script for continuation
+2021-08-29 6e3d684 Zachary Levonian Config updates, with some convenience functions added.
+2021-08-29 75f5a6a Zachary Levonian Allowed population of journal_dict from updated journal data
+2021-08-29 2143b8e Zachary Levonian Minor updates to logging
+2021-08-29 d64635a Zachary Levonian Began updating prediction, added additional CLI options to the triple_generation script for debugging pickle issues.
+2021-08-28 f89b4ab Zachary Levonian Updated rec process to be more sensible about checkpoints, to respect existing metadata and features generation in the database, and to log with greater detail in some places.
+2021-08-22 bf6a681 Zachary Levonian Additional exploration of participant data
+2021-08-22 c0f22c0 Zachary Levonian Reran with new data, and added initial analysis of participants
+2021-08-22 d2db1c3 Zachary Levonian Added analysis of new reactions
+2021-08-20 3969ed8 Zachary Levonian Added matched email list for new dump
+2021-08-19 2234571 Zachary Levonian Data update with latest respondents
+2021-08-18 e2c4a98 Zachary Levonian Updated number of cores
+2021-08-18 c1d8991 Zachary Levonian Added notebook to identify journal oids from the metadata produced by gen, and small updates to text extraction code.
+2021-08-18 1b97b6b Zachary Levonian Updated script to use roberta for extraction. Added shell script to run as qsub
+2021-08-18 c4c7f86 Zachary Levonian Created text module within cbrec, including version of threading process that works via pool.
+2021-08-17 7720408 Zachary Levonian Updated generation process to NOT record journal ids for candidate usps, for space reasons.
+2021-08-17 7674685 Zachary Levonian Decrease memory requirement after fixing bug
+2021-08-17 bef2c99 Zachary Levonian Fixed use of non-string key name in metadata dict
+2021-08-16 4a16b93 Zachary Levonian Add further memory cap, while trying to debug where the memory explosion is coming from.
+2021-08-16 c31beca Zachary Levonian Updated cbrec to allow greater memory usage and to free journal data after it is transformed into a time-aware dict.
+2021-08-16 138ad4a Zachary Levonian Refresh with new survey data.
+2021-08-07 8a84462 Zachary Levonian Updated with additional computation time, so that the job is more likely to complete in one go.
+2021-08-07 5e5cf2d Zachary Levonian Updated reccontext to include the jouranl oids of the source, target, and candidates, so they can be used post-processing for extracting text features.
+2021-08-05 33525e8 Zachary Levonian Refreshed survey notebook and survey data. Added code to compute per-response counts for the multi-choice Qs.
+2021-08-04 7a642bc Zachary Levonian Changes to feature extraction process for texts.
+2021-08-04 86261e6 Zachary Levonian Added initial survey dump and data analysis of survey dump.
+2021-08-04 0e0fdad Zachary Levonian Updated data paths and filenames. Added initial text implementation with helper functions for accessing data.
+2021-08-03 3ef071e Zachary Levonian Updated sender alias to be study-specific.
+2021-07-29 3a43504 Zachary Levonian Added initial script for sending email from my UMN account.
+2021-07-27 72ecda1 Zachary Levonian Added comparison of journals in new and 2019 dumps. Updated site duration analysis using new data
+2021-07-27 b6a51f6 Zachary Levonian Updated interaction extraction to work with new data and update valid author selection
+2021-07-27 3178f01 Zachary Levonian Updated to work with new data source
+2021-07-22 72793d7 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-07-22 0a55030 Zachary Levonian Added design files
+2021-07-19 6c049e6 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-07-19 2b5e838 Zachary Levonian Added analysis of site descriptions using newest data. Renamed notebook.
+2021-07-04 59a6b3e Zachary Levonian Update README with additional resources referenced
+2021-07-02 9a79dca Zachary Levonian Add README with other BPR implementations
+2021-06-28 aa3265f Zachary Levonian Finished site survival time analysis.
+2021-06-28 4afa174 Zachary Levonian Updated notebook with additional analyses
+2021-06-25 c4b77ca Zachary Levonian Added initial version of notebook for reporting high-level details about site survival time.
+2021-06-09 7d109cb Zachary Levonian Updated survival analysis notebook with Kaplan Meier survival time estimates, verifying expected patterns. Quant slide summarizing results added to slide deck.
+2021-06-09 5c527ac Zachary Levonian Added script for precomputing early site interaction counts at some threshold.  Updated script to build a site_df suitable for survival modeling
+2021-06-08 d1cecb5 Zachary Levonian Added initial notebook for an analysis to determine if early interactions from authors are different from early interactions by others. Seems like the interaction processing code may be a little slow, although it may have just been the network connection.
+2021-06-07 aca7552 Zachary Levonian Updated packages available in pytorch-cpuonly
+2021-05-28 5534976 Zachary Levonian Updated script to give even more time and memory
+2021-05-28 0b397de Zachary Levonian Added torchmodel module for defining and training PyTorch based recommendation models. Initial fully-connected network does better than any of the baselines on all metrics.
+2021-05-28 f55172c Zachary Levonian Updated readme info
+2021-05-28 7400dc1 Zachary Levonian Added notebook to train sklearn model from real data, and added stub notebook for text feature extraction. New MSI conda env: pytorch-cpuonly, for doing roberta feature extraction.
+2021-05-27 2a227ce Zachary Levonian Fixed featuredb multi-type support, updated db test script to test featuredb multi-type support, added sklearn model scorer to feature extraction, added script that demonstrates loading data and training a model.
+2021-05-27 89416e2 Zachary Levonian Updated featuredb to store numpy datatype in an extra byte.
+2021-05-27 89b166c Zachary Levonian Updated featuredb to retrieve appropriate arrays from test_contexts, added untested sklearn model scorer, moved baseline scorer functionality to parent class, other code and bug fixes. Added utils for external notebook use.
+2021-05-26 3fb99f3 Zachary Levonian Added entry point for prediction, using a cached checkpoing rdg. Did some reorganizing, updated the creation of targetless rec contexts. Added stub notebook for debugging training from the feature db.
+2021-05-26 8f9bf30 Zachary Levonian Added prediction period after the test period, wherein a sample of recs are generated. Bug fixes and performance optimizations in several inner methods.
+2021-05-25 494f7bd Zachary Levonian Updated coverage to limit memory usage for specific sites that are frequently ranked.
+2021-05-24 f73e4f9 Zachary Levonian Adjusted time to run based on previous execution
+2021-05-24 6efc304 Zachary Levonian Assorted bugfixes, and added coverage module.  Added stub doctest file. Added initial implementation of coverage that dumps coverage stats in a pickled dictionary.
+2021-05-21 dfcbedf Zachary Levonian Added initial CoverageTracker implementation. Updates to config and eval to support tracking of train period initiations for better test performance disambiguation.
+2021-05-20 b021936 Zachary Levonian Added mechanism for controlling commit rate to database, along with additional debugging details and config options.
+2021-05-19 0199c2a Zachary Levonian Fixed eval bug and added notebook to explore Baseline results from the full testing period.
+2021-05-19 4c2bca3 Zachary Levonian Attempt to bugfix issue with ndcg score on arrays containing inf
+2021-05-18 63bf736 Zachary Levonian Small update to slurm config
+2021-05-18 58e7f6a Zachary Levonian Bugfix to config
+2021-05-18 662b6a1 Zachary Levonian Updated cbrec to allow checkpointing using pickle.
+2021-05-18 33608d2 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-05-17 dce3e39 Zachary Levonian updated slurm script based on initial performance profiling
+2021-05-17 ae8c0b0 Zachary Levonian Bug fixes, added notebook for analyzing baseline data.
+2021-05-14 c1644f7 Zachary Levonian Bug fixes. Metric generation still known to be broken.
+2021-05-13 32fa32a Zachary Levonian Updated RecContext workflow by separating database writing and feature generation. Need to refine the state set in RecContext that defines whether it is eligible or not for feature generation + baselines.
+2021-05-12 571f84f Zachary Levonian Added CosineSimilarity baseline and fixed cohort baseline. Restructured classes to better have single responsibilities.
+2021-05-11 4757c41 Zachary Levonian Updated TestConfig to use testing paths and to generate data to test output paths. Began constructing RecContext in triple generation, although the flow needs to be tweaked.
+2021-05-11 4fd3f2d Zachary Levonian Added test data.
+2021-05-11 0bde636 Zachary Levonian Began implementing test workflow. Added script to generate test data.
+2021-05-10 ba59511 Zachary Levonian Added baseline implementations to evaluation, along with a flow for building feature matrices, scoring them, and computing metrics from those scores.
+2021-05-07 d62bf02 Zachary Levonian Updated eval to implement the two-stage merge and reduce process.
+2021-05-07 836583a Zachary Levonian More progress updating the extraction process.
+2021-05-05 d2a100f Zachary Levonian Revamping the way that training & test rec contexts are generated and the way metadata is tracked.
+2021-05-04 13041b3 Zachary Levonian Began making changes to actually compute baselines, but there's still a ton to do.  One specific note: I still need to generate counts for EXISTING vs ELIGIBLE authors when negative sampling, in order to determine coverage. Probably only need to do this during test generation.
+2021-05-04 ab1c75b Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-05-04 76d5579 Zachary Levonian Changed selection criteria
+2021-04-23 5256f56 nguy4068 fix bug
+2021-04-22 640ce09 Zachary Levonian Began updating triple generation to avoid dependence on user_site_df and to process journal updates to determine eligibility.
+2021-04-20 56d99bd Zachary Levonian Added shell script for executing gen via sbatch, updated recent activity counter to produce a sorted list of all active users, and fixed a few bugs in feature_extraction
+2021-04-16 9e40b9b Zachary Levonian updates to generation process to advance to the point where features are actually generated from the graph and recent activity.
+2021-04-16 42a7123 Zachary Levonian Small update to scratch code.
+2021-04-15 2f88836 nguy4068 update viewer site
+2021-04-12 3a92794 Zachary Levonian Added implementation of feature extraction. Added code for network and activity feature computation. Still need to actually compute features into vectors and save them to the database.
+2021-04-08 a726a6c Zachary Levonian Terminated initial run for debugging. A problem with the ordering of the journal_dict, otherwise looking good.
+2021-04-08 b240cd4 Zachary Levonian Added stub core loop for generating training and testing triples.
+2021-04-08 3398b2b Zachary Levonian Small updates to config, network, and triple_generation code.
+2021-04-06 ac2c061 Zachary Levonian Added further sketch notes on implementation. Added stub helper files for actually generating triples and for tracking the network
+2021-04-05 62ca0fb Zachary Levonian Cleaned up valid author selection, finished initial pass on interaction extraction.
+2021-04-05 a5a6ed2 Zachary Levonian Added stub guestbook extraction notebook, although it was replaced with scripts in caringbridge_core. Added stub take interaction extraction with more int types
+2021-04-05 991fa5e Zachary Levonian Updated author selection criteria and added some analysis of 'extreme' user/site pairs.
+2021-04-04 6f50827 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-04-04 ede7c3c Zachary Levonian Added initial attempt at infrastructure for a feature database to support generation of training and testing triples. Decided on minimal state in the database. Current implementation makes no attempt to distinguish train from test.
+2021-04-02 dafb4e1 Zachary Levonian Added scrolling functionality to Comments
+2021-04-02 a1e2785 nguy4068 change
+2021-04-01 5e0fb00 Zachary Levonian Added stub notebooks for identifying valid authors and extracting necessary interactions
+2021-04-01 806c051 Zachary Levonian Rearranging some files
+2021-03-29 b147795 Zachary Levonian Fixed kernel spec.  Updated test data to fix bug in site 2 journals and to add some additional activity.
+2021-03-19 aab2693 Zachary Levonian Synthetic BPR documentation updated
+2021-03-19 a03f01c Zachary Levonian Added stub implementation of backend access to user data
+2021-03-19 cf827ac nguy4068 change
+2021-03-15 bd596bd Zachary Levonian Added stub synthetic bpr notebook
+2021-03-11 722f6ab nguy4068 Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-03-06 5ef3af8 nguy4068 change journal
+2021-03-06 ede2916 Zachary Levonian Updated data utils to ensure an empty array is passed from the backend when no amps or comments are available.
+2021-03-05 cc7a92c Zachary Levonian Removing Mac OS X files from version control.
+2021-03-04 2ffd31d nguy4068 changing siteViews adding Journal and GuestBook components
+2021-03-01 7979e14 Zachary Levonian Update to notebook documentation.
+2021-03-01 5e3d3ba Zachary Levonian Updated SiteView to load the site data via fetch() when the page is loaded.
+2021-03-01 092a07e Zachary Levonian Added new site data endpoint, and added resources for database usage. Data utils uses the databases to structure the data in the prod or test databases. Configs define the paths needed to load resources appropriately.
+2021-03-01 58e0a4e Zachary Levonian Updated startup to use explicit app factory, and added switch for dev vs MSI config.
+2021-03-01 e4619a6 Zachary Levonian Fixed mistakenly empty journal text test data.
+2021-03-01 06820cb Zachary Levonian Further updates to test data.
+2021-03-01 aaacd32 Zachary Levonian Fixed data
+2021-03-01 eb3f15d Zachary Levonian Added test databases.
+2021-03-01 c88d9df Zachary Levonian Added notebook to create journal metadata and amps databases. Added notebook to create test data.
+2021-03-01 a653768 Zachary Levonian Removed test file
+2021-03-01 91f85dc Zachary Levonian Added DS_Store to git exclusions
+2021-03-01 5411862 Zachary Levonian Added hooks for DB creation and for differing configs on MSI
+2021-02-28 16ed7be Zachary Levonian Refactored names to better reflect js naming conventions. Also added back button to site view.
+2021-02-28 fb85512 Zachary Levonian Fixed routes to properly populate the siteId
+2021-02-26 8fb4e93 nguy4068 change version of react router back to 6.0.0
+2021-02-25 1641600 nguy4068 update new route for SiteView component, create DetailView
+2021-02-12 0488d43 nguy4068 Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-02-11 bf7c8c3 Hai Ngan Nguyen changes index.py SiteView and ResultViewer
+2021-02-05 5a87759 Zachary Levonian Merge branch 'main' of github.com:umncs-caringbridge/recsys-peer-match into main
+2021-02-05 6aa5ef0 Zachary Levonian CHanged up a few of the descriptions
+2021-01-25 b8fbe65 Zachary Levonian Updated with additional links.
+2021-01-25 30c941e Zachary Levonian Added front-end implementation from Devias IO example code.
+2021-01-25 95348e6 Zachary Levonian Updated respository with stub backend.
+2021-01-22 ebce253 Ngan Nguyen First Commit
+2021-01-22 dfb8540 Ngan Nguyen Updated readme
+2021-01-22 4512e3b Zachary Levonian Initial commit

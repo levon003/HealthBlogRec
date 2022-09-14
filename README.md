@@ -10,7 +10,7 @@ If any portion of this project is useful to you, please cite the following paper
 
 >Zachary Levonian, Matthew Zent, Ngan Nguyen, Matthew McNamara, Loren Terveen, and Svetlana Yarosh. 2022. “Some other poor soul’s problems”: a peer recommendation intervention for health-related social support. arXiv:2209.04973 (September 2022), 58 pages. http://arxiv.org/abs/2209.04973
 
-The project was started in January 2021, a field study with the system was conducted August - December 2021, and a results write-up was submitted to the CSCW conference in July 2022. All development occurred in a private repository hosted [here](https://github.com/umncs-caringbridge/recsys-peer-match).
+The project was started in January 2021, a field study with the system was conducted August - December 2021, and a results write-up was submitted to the CSCW conference in July 2022. All development occurred in a private repository hosted [here](https://github.com/umncs-caringbridge/recsys-peer-match) (git logs [here](/gitlog.txt)).
 
 ### Code contributors
  - Zachary Levonian <levon003@umn.edu>
@@ -32,8 +32,8 @@ The project was started in January 2021, a field study with the system was condu
  - `notebook`: Jupyter Notebooks for analysis and experimentation with recommendation systems models.  Unfortunately, the internal user IDs can be linked to public CaringBridge profiles, so all cell outputs are cleared and all ID/email references stripped. Figures generated for the paper can be found in `figures`, but all other figures have been cleared.
    - `eval`: Modeling, including the weekly train & predict in `PytorchTraining.ipynb`.  Offline evaluation is here too, for both trained models and non-trained baselines.
    - `model_data`: Data preparation, cleaning, and transformation. Includes one-off investigations of outliers and unexpected data distributions.
-   - `prerec_evidence`: Data analysis mostly conducted before the study. Includes an analysis of the retention impact of author comments (sec3.1 in [arXiv:2209.04973v1](https://arxiv.org/abs/2209.04973v1))
-   - `retention`: 
+   - `prerec_evidence`: Data analysis mostly conducted before the study. Includes an analysis of the retention impact of author comments (sec3.1 in [arXiv:2209.04973v1](https://arxiv.org/abs/2209.04973v1)).
+   - `retention`: Effect size estimates for the impact of participation on other observed behaviors (sec5.3.3 and Appendix G in [arXiv:2209.04973v1](https://arxiv.org/abs/2209.04973v1)).
    - `sqlite`: Small data transformations for internal testing.
    - `survey`: Survey data analysis and monitoring of participant activity during the field study.
    - `torch_experiments`: Modeling experiments, including some hyperparameter optimization and testing of experiment infrastructure.
