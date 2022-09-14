@@ -22,9 +22,22 @@ The project was started in January 2021, a field study with the system was condu
 
  - `src`: Python source files.
    - Top level: The bash scripts are designed to work with the [Slurm](https://slurm.schedmd.com/documentation.html) scheduling system using on MSI. The core entry points to the cbrec package are convenience scripts: `gen.py` to generate training data and `predict.py` for making predictions from a trained model. `*test*.py` are for limited automated testing.
-   - `cbrec`: Python package `cbrec` for a recommendation system: data processing, model training, and evaluation.
- - `notebook`: Jupyter Notebooks for analysis and experimentation with recommendation systems models.
- - `data`: small data objects stored with the repository. A few examples are provided. All of the "real" data was stored in compressed .sqlite 
+   - `cbrec`: Python package for recommendation: data processing, model training, and evaluation.
+     - Top level: entry point for training and test data generation is `triple_generation.py`. Other files support tracking of recent activity, interaction network structure, and I/O for the generated features and metadata.
+     - `text`: For managing RoBERTa embeddings in an sqlite database.
+     - `modeling`: Implements the actual model, including routines for data preprocessing and optimization.
+     - `experiment`: For generating experimental configurations for offline model training and evaluation. Used for hyperparameter search.
+   - `cbsend`: For templating and sending emails to participants.
+   - `extract`: For converting MongoDB BSON exports into flattened ndJSON representations.
+ - `notebook`: Jupyter Notebooks for analysis and experimentation with recommendation systems models.  Unfortunately, the internal user IDs can be linked to public CaringBridge profiles, so all cell outputs are cleared and all ID/email references stripped. Figures generated for the paper can be found in `figures`, but all other figures have been cleared.
+   - `eval`: Modeling, including the weekly train & predict in `PytorchTraining.ipynb`.  Offline evaluation is here too, for both trained models and non-trained baselines.
+   - `model_data`: Data preparation, cleaning, and transformation. Includes one-off investigations of outliers and unexpected data distributions.
+   - `prerec_evidence`: Data analysis mostly conducted before the study. Includes an analysis of the retention impact of author comments (sec3.1 in [arXiv:2209.04973v1](https://arxiv.org/abs/2209.04973v1))
+   - `retention`: 
+   - `sqlite`: Small data transformations for internal testing.
+   - `survey`: Survey data analysis and monitoring of participant activity during the field study.
+   - `torch_experiments`: Modeling experiments, including some hyperparameter optimization and testing of experiment infrastructure.
+ - `data`: small data objects stored with the repository. A few examples are provided. All of the "real" data was stored in compressed BSON, JSON, and SQLite files on MSI.
 
 
 ## Using HealthBlogRec 
@@ -66,9 +79,9 @@ Pip managed requirements:
 
 A separate evaluation process was used for the baselines (see original implementation `notebook/eval/BaselineCompute.ipynb`)
 
-### Can I use this for my own problems?
+### Can I use this to build my own recommendation system?
 
-Probably not without substantial development effort.
+Probably not without substantial development effort.  Most of the value is captured in the general approach, which is described in the arXiv paper. You might be interested in the candidate identification and negative sampling (see `src/cbrec/triple_generation.py`), the model (see `src/cbrec/modeling/models/linearnet.py` and similar), the model optimization procedure (see `src/sbrec/modeling/train.py`), or the RoBERTa feature extraction (see `src/cbrec/text/createTextFeatureSqlite.py`).
 
 ## Fixed bugs during deployment
 
