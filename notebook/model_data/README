@@ -1,0 +1,3 @@
+When a new dump is acquired, run:
+ 1. ValidAuthorSelection
+ 2. InteractionExtraction
