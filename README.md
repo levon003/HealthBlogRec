@@ -81,7 +81,7 @@ A separate evaluation process was used for the baselines (see original implement
 
 ### Can I use this to build my own recommendation system?
 
-Probably not without substantial development effort.  Most of the value is captured in the general approach, which is described in the arXiv paper. You might be interested in the candidate identification and negative sampling (see `src/cbrec/triple_generation.py`), the model (see `src/cbrec/modeling/models/linearnet.py` and similar), the model optimization procedure (see `src/sbrec/modeling/train.py`), or the RoBERTa feature extraction (see `src/cbrec/text/createTextFeatureSqlite.py`).
+Probably not without substantial development effort.  Most of the value is captured in the general approach, which is described in the arXiv paper. You might be interested in the candidate identification and negative sampling (see `src/cbrec/triple_generation.py`), the model (see `src/cbrec/modeling/models/linearnet.py` and similar), the model optimization procedure (see `src/cbrec/modeling/train.py`), or the RoBERTa feature extraction (see `src/cbrec/text/createTextFeatureSqlite.py`).
 
 ## Fixed bugs during deployment
 
