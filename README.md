@@ -1,5 +1,10 @@
 # HealthBlogRec
 
+[![arXiv](https://img.shields.io/badge/arXiv-2209.04973-b31b1b.svg)](https://arxiv.org/abs/2209.04973)
+[![License](https://img.shields.io/github/license/levon003/HealthBlogRec)](https://github.com/levon003/HealthBlogRec/blob/main/LICENSE)
+
+
+
 HealthBlogRec is a recommendation system for peer health blogs.
 
 ![Recommender system overview](/figures/rec_system_overview.png)
