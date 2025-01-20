@@ -15,7 +15,7 @@ If any portion of this project is useful to you, please cite the following paper
 
 >Zachary Levonian, Matthew Zent, Ngan Nguyen, Matthew McNamara, Loren Terveen, and Svetlana Yarosh. 2022. “Some other poor soul’s problems”: a peer recommendation intervention for health-related social support. arXiv:2209.04973 (September 2022), 58 pages. http://arxiv.org/abs/2209.04973
 
-The project was started in January 2021, a field study with the system was conducted August - December 2021, and a results write-up was submitted to the CSCW conference in July 2022. All development occurred in a private repository hosted [here](https://github.com/umncs-caringbridge/recsys-peer-match) (git logs [here](/gitlog.txt)).
+The project was started in January 2021, a field study with the system was conducted August - December 2021, and a results write-up was submitted to the CSCW conference in July 2022. After a round of major revisions, a rejection, and another round of major revisions, the paper was accepted to CSCW 2025 in September 2024. All development occurred in a private repository hosted [here](https://github.com/umncs-caringbridge/recsys-peer-match) (git logs [here](/gitlog.txt)).
 
 ### Code contributors
  - Zachary Levonian <levon003@umn.edu>
