@@ -3,8 +3,6 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2209.04973-b31b1b.svg)](https://arxiv.org/abs/2209.04973)
 [![License](https://img.shields.io/github/license/levon003/HealthBlogRec)](https://github.com/levon003/HealthBlogRec/blob/main/LICENSE)
 
-
-
 HealthBlogRec is a recommendation system for peer health blogs.
 
 ![Recommender system overview](/figures/rec_system_overview.png)
@@ -18,7 +16,7 @@ If any portion of this project is useful to you, please cite the following paper
 The project was started in January 2021, a field study with the system was conducted August - December 2021, and a results write-up was submitted to the CSCW conference in July 2022. After a round of major revisions, a rejection, and another round of major revisions, the paper was accepted to CSCW 2025 in September 2024. All development occurred in a private repository hosted [here](https://github.com/umncs-caringbridge/recsys-peer-match) (git logs [here](/gitlog.txt)).
 
 ### Code contributors
- - Zachary Levonian <levon003@umn.edu>
+ - Zachary Levonian (<zacharylevonian@gmail.com>)
  - Matthew Zent
  - Ngan Nguyen
  - Matthew McNamara
