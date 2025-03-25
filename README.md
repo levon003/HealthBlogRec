@@ -26,7 +26,7 @@ The project was started in January 2021, a field study with the system was condu
 ## Repository structure
 
  - `src`: Python source files.
-   - Top level: The bash scripts are designed to work with the [Slurm](https://slurm.schedmd.com/documentation.html) scheduling system using on MSI. The core entry points to the cbrec package are convenience scripts: `gen.py` to generate training data and `predict.py` for making predictions from a trained model. `*test*.py` are for limited automated testing.
+   - Top level: The bash scripts are designed to work with the [Slurm](https://slurm.schedmd.com/documentation.html) scheduling system using on the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) (MSI) cluster. The core entry points to the cbrec package are convenience scripts: `gen.py` to generate training data and `predict.py` for making predictions from a trained model. `*test*.py` are for limited automated testing.
    - `cbrec`: Python package for recommendation: data processing, model training, and evaluation.
      - Top level: entry point for training and test data generation is `triple_generation.py`. Other files support tracking of recent activity, interaction network structure, and I/O for the generated features and metadata.
      - `text`: For managing RoBERTa embeddings in an sqlite database.
